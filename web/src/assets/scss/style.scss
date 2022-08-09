@@ -1,0 +1,48 @@
+/*================================================================================
+	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+@import '../../@core/scss/base/bootstrap-extended/include';
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+ul.no-border li { border: none; background-color: transparent; }
+
+ul.no-padding li { padding: 5px 0; }
+
+ul.no-hover li:hover { background-color: transparent!important; }
+
+.modal-remove-button {
+  position: absolute;
+  left: 20px;
+}
+
+.table-select tr:hover {
+  cursor: pointer;
+  td {
+    transition: all .1s;
+    background-color: rgba(249, 79, 67, 0.02);
+    color: $primary;
+  }
+}
+
+.react-dataTable.selectable {
+  .rdt_TableRow .rdt_TableCell {
+    cursor: pointer;
+    transition: all .1s;
+  }
+
+  .rdt_TableRow:hover .rdt_TableCell {
+    background-color: rgba($primary, 0.02);
+    color: $primary;
+  }
+}
